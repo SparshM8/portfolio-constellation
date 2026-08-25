@@ -130,3 +130,19 @@ Each folder will contain one route component. Its visual system remains locally 
 - The world selector is a **constellation map before it is a portfolio list**: orbital paths, coordinates, field index codes, and node markers explicitly connect every world.
 - Every portfolio world receives a visibly different composition rule: Kinetic uses poster panels, Architect uses blueprint dossier tiles, Void uses cinematic reel panels, Artifact uses pinned notes, Mono uses severe index rows, Neon uses arcade tiles, Editorial uses magazine spreads, and Chrome uses control-room modules.
 - **Signal Lime (#D9FF4A)** remains reserved for the eclipse mark, navigation targets, encoded/active states, and the primary contact pathway. Neon alone may use it as an environmental surface.
+
+## Demo Profile — Sparsh Mishra
+
+**Sparsh Mishra** is presented as a multidisciplinary designer and creative technologist based between Bengaluru and the internet. The demo identity frames Sparsh as someone who turns complex systems into culturally sharp, emotionally legible digital experiences. The profile should feel ambitious but grounded: strategy, identity, product, motion, and experimental technology are all parts of one practice rather than separate job titles.
+
+The contact pathway becomes **sparsh@constellation.studio**, with the instruction to replace it with a real email before launch. The home hub and footer identify the author as **Sparsh Mishra / Independent Designer & Creative Technologist**.
+
+## Case-Study Story System
+
+Every project card links to an individual case-study route at `/case-studies/:world/:project`. Each page uses a visual project opener, role and year metadata, a concise challenge statement, a creative response, an outcomes section, and a gallery of three designed visual moments. The content is intentionally demo-ready, using credible but clearly fictional project narratives rather than invented testimonials, awards, clients, or performance metrics.
+
+The 24 project stories are organized as follows: Kinetic focuses on cultural brands and launch systems; Architect on product and service platforms; Void on title sequences and moving identities; Artifact on experimental browser work; Mono on useful digital products; Neon on generative play; Editorial on image and cultural stories; and Chrome on multidisciplinary launches.
+
+## Case-Study Composition Rules
+
+Kinetic case studies behave like layered poster campaigns: compressed, loud, angular, and material. Architect becomes a paced project dossier built from measured grid surfaces, evidence plates, and calm white space. Void is staged as a dark visual reel with cinematic sequencing and ultraviolet edges. The remaining worlds inherit their existing distinct world systems in their case-study visual artifacts, while the eclipse seal, field code, and signal label remain present on every route.
