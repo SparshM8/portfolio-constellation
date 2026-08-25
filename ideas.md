@@ -146,3 +146,9 @@ The 24 project stories are organized as follows: Kinetic focuses on cultural bra
 ## Case-Study Composition Rules
 
 Kinetic case studies behave like layered poster campaigns: compressed, loud, angular, and material. Architect becomes a paced project dossier built from measured grid surfaces, evidence plates, and calm white space. Void is staged as a dark visual reel with cinematic sequencing and ultraviolet edges. The remaining worlds inherit their existing distinct world systems in their case-study visual artifacts, while the eclipse seal, field code, and signal label remain present on every route.
+
+## Recruiter and Founder Positioning
+
+This portfolio now leads with **Sparsh Mishra, a B.Tech student, product-minded designer, and creative technologist**. It is designed for recruiters looking for a thoughtful early-career candidate and founders looking for a high-agency student collaborator. The presentation should make projects, skills, experience, availability, and contact actions easy to find without losing the constellation’s personal-brand atmosphere.
+
+The profile uses clearly marked demo contact details, including `+91 XXXXX XXXXX`, and links that must be replaced with Sparsh’s real accounts before launch. Each portfolio world carries a short audience statement so a recruiter or founder can immediately understand the kind of opportunity or problem it speaks to.

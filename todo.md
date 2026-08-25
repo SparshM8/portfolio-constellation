@@ -1,5 +1,13 @@
 # Sparsh Mishra Portfolio Enhancement Tasks
 
+## Recruiter-Ready Portfolio Upgrade
+
+- [x] Define student-focused recruiter, founder, skills, experience, project, and contact demo data.
+- [x] Add a dynamic main-hub filter system for skills and project types.
+- [x] Implement a custom cursor that adapts to the active portfolio world and interactive targets.
+- [x] Add résumé download, social links, and a recruiter-facing contact section.
+- [x] Verify filtering, cursor behavior, contact links, and responsive presentation.
+
 - [x] Define the demo identity, project narratives, and case-study content schema.
 - [x] Prepare visual assets for the detailed project stories.
 - [x] Add smooth route transitions between the constellation, worlds, and case studies.
