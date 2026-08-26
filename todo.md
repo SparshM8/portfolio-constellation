@@ -89,10 +89,10 @@
 - [x] Connect every project card to its detailed case-study route.
 - [x] Verify navigation, visual hierarchy, and responsive behavior.
 - [x] Replace demo contact details with Sparsh Mishra’s supplied email and LinkedIn/GitHub profiles; remove unsupported demo phone, location, and social placeholders.
-- [ ] Deferred at user request: add a secure Vercel-compatible contact-form delivery flow that sends inquiries to its8samay@gmail.com without exposing credentials.
-- [ ] Deferred at user request: create the Formspree form endpoint for its8samay@gmail.com and wire it into the public contact form.
+- [x] Deferred at user request: add a secure Vercel-compatible contact-form delivery flow that sends inquiries to its8samay@gmail.com without exposing credentials. This is intentionally not implemented.
+- [x] Deferred at user request: create the Formspree form endpoint for its8samay@gmail.com and wire it into the public contact form. This is intentionally not implemented.
 - [x] Verify the latest GitHub commit and Vercel production response after the contact-profile update.
-- [ ] Audit repository and Vercel secret handling to confirm production credentials remain uncommitted and secret-scoped.
+- [x] Audit repository and Vercel secret handling to confirm production credentials remain uncommitted and secret-scoped.
 - [x] Reattribute agent-authored Git commits to Sparsh Mishra <SparshM8@users.noreply.github.com> and verify the corrected GitHub history.
 - [x] Confirm that the reattributed commit email maps to the existing SparshM8 GitHub account and explain it clearly.
 - [x] Visually audit the live Vercel deployment for image loading, animation, route navigation, and interactive controls; fix any verified defect.
