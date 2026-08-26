@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import { Link } from "wouter";
 import { portfolios } from "@/data/portfolios";
 import { hubFilters, sparshProfile, worldFilterTags } from "@/data/profile";
+import { masterLibraryZip } from "@/data/designLibrary";
 import { OrbitMark } from "@/components/brand/OrbitMark";
 import { ContactForm } from "@/components/shared/ContactForm";
 
@@ -13,7 +14,7 @@ export function ConstellationHub() {
   const [filter, setFilter] = useState<(typeof hubFilters)[number]>("ALL");
   const filteredPortfolios = useMemo(() => portfolios.filter((portfolio) => { const tags = worldFilterTags[portfolio.slug]; return filter === "ALL" || tags.skills.includes(filter) || tags.types.includes(filter); }), [filter]);
   return <div className="constellation-page" data-cursor-color="#d9ff4a"><div className="constellation-noise" aria-hidden="true" />
-    <header className="hub-nav"><OrbitMark /><div className="hub-nav__right"><span className="hub-nav__status"><i /> {sparshProfile.availability.toUpperCase()}</span><a href="#worlds" className="hub-nav__control" data-cursor-label="EXPLORE">EXPLORE <ArrowDownRight size={16} /></a></div></header>
+    <header className="hub-nav"><OrbitMark /><div className="hub-nav__right"><span className="hub-nav__status"><i /> {sparshProfile.availability.toUpperCase()}</span><a href={masterLibraryZip} className="hub-nav__library" download data-cursor-label="LIBRARY"><Download size={14}/> ALL 8 SOURCES</a><a href="#worlds" className="hub-nav__control" data-cursor-label="EXPLORE">EXPLORE <ArrowDownRight size={16} /></a></div></header>
     <main><section className="hub-hero"><div className="hub-hero__image" aria-hidden="true" /><div className="hub-hero__rays" aria-hidden="true" />
       <motion.div className="hub-hero__intro" initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65, ease: [0.23, 1, 0.32, 1] }}><p className="signal-label"><Sparkles size={14} /> SPARSH MISHRA / B.TECH STUDENT / PERSONAL BRAND UNIVERSE</p><h1>Curious by<br />nature. <em>Built</em><br />to ship.</h1></motion.div>
       <motion.div className="hub-hero__side" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.45, duration: 0.5 }}><span className="hub-hero__side-line" /><p>{sparshProfile.audience}</p></motion.div>

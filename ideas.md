@@ -164,3 +164,9 @@ All portfolio-world project cards use a restrained 3D tilt based on pointer posi
 ## Final Constellation System Decisions
 
 The field selector is an explicit map: every world card is a named node with its own coordinate, visible orbital route, map label, and connection to another field destination. The enlarged broken-orbit glyph acts as a functional home seal, field control, and route identity. Recruiter content is treated as signal dispatch infrastructure rather than a conventional résumé footer: experience is an indexed log, direct actions are primary nodes, and the form is a structured message payload.
+
+## Junior-Friendly Design Library Architecture
+
+Portfolio Constellation becomes a **portfolio-design library**. The main hub is the comparison and discovery layer. Every portfolio world exposes a practical “Is this for me?” guide that states its ideal user, visual personality, strength, difficulty, customization starting point, and when not to choose it. This lets a junior judge the design before touching the code.
+
+The final export has a single `portfolio-constellation-library/` parent folder. Inside it, `main-hub/` holds the selection experience and shared design system, while `portfolio-designs/` contains eight clear folders: `01-kinetic-poster/`, `02-architect-dossier/`, `03-void-reel/`, `04-artifact-archive/`, `05-mono-index/`, `06-neon-playground/`, `07-editorial-journal/`, and `08-chrome-control-room/`. Every design folder carries a README, its route component, its visual configuration, and a customization map so it can be copied as a starting point.

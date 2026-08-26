@@ -4,6 +4,14 @@
 
 ## Theme, Contact, and Interaction Upgrade
 
+## Portfolio Design Library Upgrade
+
+- [x] Define accurate “best for” guidance, feature summaries, customization starting points, and the main-hub-plus-eight-design export architecture.
+- [x] Add a custom constellation loading screen before the main hub appears.
+- [x] Add clear design-selection details and a source-download action for every individual portfolio world.
+- [x] Generate a junior-friendly library ZIP with eight independent design folders and usage documentation.
+- [x] Verify all library navigation, download links, loading behavior, and visual differentiation.
+
 - [x] Define the unified light/dark constellation palette, form validation states, and 3D tilt interaction rules.
 - [x] Add a global light/dark theme toggle that carries across hub, worlds, and case studies.
 - [x] Replace the contact links with a validated recruiter-facing contact form.
