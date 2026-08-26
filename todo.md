@@ -114,5 +114,5 @@
 - [x] Add opt-in local storage for a visitor’s name and email with clear disclosure and an easy way to remove saved details.
 - [x] Fix the unintended overlap between the hero recruitment-copy block and the Portfolio Constellation creator seal/orbit artwork at affected responsive sizes.
 - [x] Defer Formspree automatic acknowledgements at the owner’s request because the provider feature requires a paid upgrade; do not upgrade or add another email provider.
-- [ ] Extend Light Field and Dark Field styling beyond the home hub so it consistently changes all portfolio-world and case-study routes.
-- [ ] Fix Light Field contrast on case-study hero copy and controls so the title and metadata remain readable over the brightened image wash.
+- [x] Extend Light Field and Dark Field styling beyond the home hub so it consistently changes all portfolio-world and case-study routes.
+- [x] Fix Light Field contrast on case-study hero copy and controls so the title and metadata remain readable over the brightened image wash.
