@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "howToUse": "Edit values in templates.<design-id>; layout components stay unchanged.",
+  "templates": {
+    "kinetic": { "name": "Your Name", "role": "Brand Designer & Art Director", "headline": "Ideas that move before they explain.", "email": "hello@yourdomain.com", "location": "Your City, Country", "projectHeading": "Selected Campaigns", "contactCta": "Start a creative conversation" },
+    "architect": { "name": "Your Name", "role": "Product & Experience Designer", "headline": "Calm systems for complex decisions.", "email": "hello@yourdomain.com", "location": "Your City, Country", "projectHeading": "Selected Product Work", "contactCta": "Discuss a product challenge" },
+    "void": { "name": "Your Name", "role": "Motion Designer & 3D Artist", "headline": "Make the frame feel like a world.", "email": "hello@yourdomain.com", "location": "Your City, Country", "projectHeading": "Selected Reels", "contactCta": "Build a visual atmosphere" },
+    "artifact": { "name": "Your Name", "role": "Creative Developer", "headline": "Small experiments, real interaction.", "email": "hello@yourdomain.com", "location": "Your City, Country", "projectHeading": "Built Artifacts", "contactCta": "Prototype together" },
+    "mono": { "name": "Your Name", "role": "UI & Product Designer", "headline": "Useful design with a clear point of view.", "email": "hello@yourdomain.com", "location": "Your City, Country", "projectHeading": "Selected Product Cases", "contactCta": "Talk about the role" },
+    "neon": { "name": "Your Name", "role": "Digital Artist & Creative Coder", "headline": "Play is how the next idea starts.", "email": "hello@yourdomain.com", "location": "Your City, Country", "projectHeading": "Interactive Experiments", "contactCta": "Make something unexpected" },
+    "editorial": { "name": "Your Name", "role": "Photographer & Visual Storyteller", "headline": "Images with a reason to stay.", "email": "hello@yourdomain.com", "location": "Your City, Country", "projectHeading": "Selected Stories", "contactCta": "Tell a visual story" },
+    "chrome": { "name": "Your Name", "role": "Multidisciplinary Designer", "headline": "Strategy, design, and build in one signal.", "email": "hello@yourdomain.com", "location": "Your City, Country", "projectHeading": "Selected Systems", "contactCta": "Build the next system" }
+  }
+}

@@ -6,6 +6,15 @@
 
 ## Portfolio Design Library Upgrade
 
+## Interactive Starter Kit Upgrade
+
+- [x] Define the configuration schema, preview surface, and reusable snippet catalog.
+- [x] Add a centralized editable JSON profile configuration for every template.
+- [x] Build a live preview modal for each portfolio design with source-download access.
+- [x] Add a copyable component-code panel for hero, gallery, and contact sections.
+- [x] Verify modal, JSON, copy-to-clipboard, and responsive behavior.
+- [x] Package the updated interactive starter-kit library ZIP.
+
 - [x] Define accurate “best for” guidance, feature summaries, customization starting points, and the main-hub-plus-eight-design export architecture.
 - [x] Add a custom constellation loading screen before the main hub appears.
 - [x] Add clear design-selection details and a source-download action for every individual portfolio world.

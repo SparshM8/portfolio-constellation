@@ -169,4 +169,12 @@ The field selector is an explicit map: every world card is a named node with its
 
 Portfolio Constellation becomes a **portfolio-design library**. The main hub is the comparison and discovery layer. Every portfolio world exposes a practical “Is this for me?” guide that states its ideal user, visual personality, strength, difficulty, customization starting point, and when not to choose it. This lets a junior judge the design before touching the code.
 
+## Interactive Starter-Kit Architecture
+
+Every starter inherits a central `client/src/config/template-profiles.json` file. It holds the personal profile values that juniors most frequently change: name, role, headline, email, location, project heading, and contact CTA. The live preview modal reads that same configuration, so the comparison experience demonstrates exactly what the configuration controls. The modal also provides three copyable code sections—hero, project gallery, and contact block—rather than forcing a junior to copy an entire project when they only need a component.
+
+## Style Decisions
+
+Kinetic’s mid-page system uses uneven poster fragments, rotated campaign panels, and compressed orange/black type collisions. Neon’s body turns into an arcade board: a player-readout, grid surface, game-like case tiles, and high-score signal. Across every route, the broken-orbit glyph is elevated to a creator seal, while source retrieval is framed as a signal operation rather than a template-marketplace control. Signal Lime remains reserved for active navigation, encoded markers, source retrieval, and the primary contact path outside the Neon environment.
+
 The final export has a single `portfolio-constellation-library/` parent folder. Inside it, `main-hub/` holds the selection experience and shared design system, while `portfolio-designs/` contains eight clear folders: `01-kinetic-poster/`, `02-architect-dossier/`, `03-void-reel/`, `04-artifact-archive/`, `05-mono-index/`, `06-neon-playground/`, `07-editorial-journal/`, and `08-chrome-control-room/`. Every design folder carries a README, its route component, its visual configuration, and a customization map so it can be copied as a starting point.

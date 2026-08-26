@@ -19,6 +19,8 @@ Portfolio Constellation is organized as a **main selection hub** plus eight reus
 
 Begin with the `README.md` inside the chosen design folder. Replace the portfolio record in `src/data/portfolios.ts`, then update project names, images, case-study descriptions, email address, and social URLs. Every starter includes its route entry, shared display shell, local visual guidance, tilt interaction, and the style layers it depends on.
 
+For personal details, update `client/src/config/template-profiles.json` rather than editing layout components. The live library preview uses this JSON file to show the same fields that juniors should customize. Use the preview’s **Copy Component Code** panel when you only need a starter hero, project gallery, or contact block.
+
 > The design library contains demo content and placeholder contact details. Replace every demo project, school, experience, link, and contact value with verified information before publishing.
 
 ## Export Architecture

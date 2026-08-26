@@ -25,14 +25,14 @@ export const designGuides: Record<PortfolioMode, DesignGuide> = {
 };
 
 export const designSourceZips: Record<PortfolioMode, string> = {
-  kinetic: "/manus-storage/01-kinetic-poster_aa3fdcca.zip",
-  architect: "/manus-storage/02-architect-dossier_a4c8c86a.zip",
-  void: "/manus-storage/03-void-reel_d2b74282.zip",
-  artifact: "/manus-storage/04-artifact-archive_cdb80190.zip",
-  mono: "/manus-storage/05-mono-index_20bf1922.zip",
-  neon: "/manus-storage/06-neon-playground_c880231f.zip",
-  editorial: "/manus-storage/07-editorial-journal_b41a46f9.zip",
-  chrome: "/manus-storage/08-chrome-control-room_29189caf.zip",
+  kinetic: "/manus-storage/01-kinetic-poster_b5c19adc.zip",
+  architect: "/manus-storage/02-architect-dossier_68c93c8f.zip",
+  void: "/manus-storage/03-void-reel_3748b55a.zip",
+  artifact: "/manus-storage/04-artifact-archive_23eb657b.zip",
+  mono: "/manus-storage/05-mono-index_3f85c862.zip",
+  neon: "/manus-storage/06-neon-playground_f081b186.zip",
+  editorial: "/manus-storage/07-editorial-journal_61947cdd.zip",
+  chrome: "/manus-storage/08-chrome-control-room_489f7902.zip",
 };
 
-export const masterLibraryZip = "/manus-storage/Portfolio-Constellation-Design-Library_c3b1a1fa.zip";
+export const masterLibraryZip = "/manus-storage/Portfolio-Constellation-Interactive-Starter-Kit_a24cd314.zip";
