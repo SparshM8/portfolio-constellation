@@ -24,9 +24,9 @@
 - [x] Submit a controlled vote through the API and confirm its shared count and selected-design state persist.
 
 - [x] Run final build and visual checks for the current project state.
-- [ ] Create a private GitHub repository and push the validated source.
-- [ ] Set the repository description, topics, and website URL metadata.
-- [ ] Provide the project publishing step and report the final repository state.
+- [x] Create a private GitHub repository and push the validated source.
+- [ ] Set the repository description, topics, and website URL metadata after a stable public URL is available.
+- [x] Provide the project publishing step and report the final repository state.
 
 - [x] Define the beginner setup steps, preview-edit data flow, and personalized ZIP manifest behavior.
 - [x] Add editable personal-detail controls and a beginner integration guide to the preview experience.
