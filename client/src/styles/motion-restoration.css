@@ -1,0 +1,21 @@
+/** Makes the constellation hub’s world nodes visibly tactile on a desktop pointer without overriding user motion preferences. */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .world-card__link {
+    transform: perspective(950px) translateY(0) rotateX(0) rotateY(0);
+    transform-style: preserve-3d;
+    transition: transform .28s cubic-bezier(.23,1,.32,1), filter .28s cubic-bezier(.23,1,.32,1);
+  }
+
+  .world-card__link:hover,
+  .world-card__link:focus-visible {
+    transform: perspective(950px) translateY(-10px) rotateX(1.8deg) rotateY(-1.8deg);
+    filter: drop-shadow(0 1.3rem 1.4rem #1113);
+  }
+
+  .world-card__link:active { transform: perspective(950px) translateY(-3px) scale(.985); }
+  .world-card__link:hover .world-card__media > img,
+  .world-card__link:focus-visible .world-card__media > img { transform: scale(1.07) rotate(-.65deg); }
+}
+
+.contact-form__error { margin: 0 0 1rem; color: #d94c3b; font: 600 .68rem/1.4 "DM Mono", monospace; letter-spacing: .04em; }
+.contact-form__submit:disabled { cursor: wait; opacity: .62; }
