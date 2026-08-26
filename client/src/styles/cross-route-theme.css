@@ -1,0 +1,131 @@
+/* Light Field and Dark Field are global reading environments, applied after each world’s expressive base palette. */
+
+html:not(.dark) .portfolio-world {
+  background: #eceae3;
+  color: #111;
+}
+
+html:not(.dark) .portfolio-world .world-nav,
+html:not(.dark) .portfolio-world .world-footer {
+  background: #f6f4ee;
+  color: #111;
+  border-color: #1113;
+}
+
+html:not(.dark) .portfolio-world .world-hero,
+html:not(.dark) .portfolio-world .design-fit,
+html:not(.dark) .portfolio-world .world-cases,
+html:not(.dark) .portfolio-world .world-statement,
+html:not(.dark) .portfolio-world .next-world {
+  color: #111 !important;
+  border-color: #1113;
+}
+
+html:not(.dark) .portfolio-world .world-hero,
+html:not(.dark) .portfolio-world .design-fit,
+html:not(.dark) .portfolio-world .world-statement {
+  background: #f6f4ee !important;
+}
+
+html:not(.dark) .portfolio-world .world-cases,
+html:not(.dark) .portfolio-world .next-world {
+  background: #e8e7e0 !important;
+}
+
+html:not(.dark) .portfolio-world .case-row {
+  background: #f6f4ee !important;
+  color: #111 !important;
+  border-color: #1113 !important;
+}
+
+html:not(.dark) .portfolio-world .world-hero__art {
+  filter: saturate(.76) brightness(1.08);
+}
+
+html.dark .portfolio-world {
+  background: #090909;
+  color: #f4f2ec;
+}
+
+html.dark .portfolio-world .world-nav,
+html.dark .portfolio-world .world-footer,
+html.dark .portfolio-world .world-hero,
+html.dark .portfolio-world .design-fit,
+html.dark .portfolio-world .world-cases,
+html.dark .portfolio-world .world-statement,
+html.dark .portfolio-world .next-world {
+  color: #f4f2ec !important;
+  border-color: #f4f2ec28;
+}
+
+html.dark .portfolio-world .world-nav,
+html.dark .portfolio-world .world-footer,
+html.dark .portfolio-world .world-hero,
+html.dark .portfolio-world .world-statement {
+  background: #0d0d0d !important;
+}
+
+html.dark .portfolio-world .design-fit,
+html.dark .portfolio-world .world-cases,
+html.dark .portfolio-world .next-world,
+html.dark .portfolio-world .case-row {
+  background: #151515 !important;
+  color: #f4f2ec !important;
+  border-color: #f4f2ec28 !important;
+}
+
+html.dark .portfolio-world .world-hero__art {
+  filter: saturate(.84) brightness(.78) contrast(1.08);
+}
+
+html:not(.dark) .case-study {
+  background: #eceae3 !important;
+  color: #111 !important;
+}
+
+html:not(.dark) .case-study .case-nav,
+html:not(.dark) .case-study .case-footer {
+  background: #f6f4eedb;
+  color: #111 !important;
+  border-color: #1113;
+}
+
+html:not(.dark) .case-study .case-hero__wash {
+  background: linear-gradient(90deg,#f6f4eedb 0%,#f6f4ee8a 48%,#f6f4ee36 100%),linear-gradient(0deg,#f6f4eebd 0%,transparent 48%);
+}
+
+html:not(.dark) .case-study .case-intro,
+html:not(.dark) .case-study .case-chapter,
+html:not(.dark) .case-study .case-gallery,
+html:not(.dark) .case-study .case-outro {
+  background: #f6f4ee !important;
+  color: #111 !important;
+}
+
+html:not(.dark) .case-study .case-gallery img {
+  filter: saturate(.78) brightness(1.07);
+}
+
+html.dark .case-study {
+  background: #090909 !important;
+  color: #f4f2ec !important;
+}
+
+html.dark .case-study .case-nav,
+html.dark .case-study .case-footer {
+  background: #090909de;
+  color: #f4f2ec !important;
+  border-color: #f4f2ec28;
+}
+
+html.dark .case-study .case-intro,
+html.dark .case-study .case-chapter,
+html.dark .case-study .case-gallery,
+html.dark .case-study .case-outro {
+  background: #111 !important;
+  color: #f4f2ec !important;
+}
+
+html.dark .case-study .case-gallery img {
+  filter: saturate(.84) brightness(.82) contrast(1.08);
+}
