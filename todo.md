@@ -22,6 +22,7 @@
 - [x] Migrate the shared vote API from the managed project database to MongoDB.
 - [x] Add a Vercel serverless entry point, deployment configuration, and external-hosting documentation.
 - [ ] Verify the Vercel serverless entry, configuration, documentation, and local build/test compatibility.
+- [ ] Correct Vercel SPA fallback routing so /api/trpc is served by the serverless vote API rather than index.html.
 
 - [ ] Confirm the existing shared-voting database can remain in place for Vercel; defer MongoDB unless a migration is required.
 - [ ] Add Vercel deployment configuration and environment-variable documentation for the GitHub repository.
