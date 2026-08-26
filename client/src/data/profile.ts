@@ -2,16 +2,14 @@
 export const sparshProfile = {
   name: "Sparsh Mishra",
   role: "B.Tech Student · Product-minded Designer & Creative Technologist",
-  location: "Bengaluru, India · Open to internships, freelance, and founder collaborations",
-  email: "sparsh@constellation.studio",
-  phone: "+91 XXXXX XXXXX",
+  location: "Open to internships, freelance, and founder collaborations",
+  email: "its8samay@gmail.com",
   availability: "Available for 2026 internships, product design roles, and early-stage collaborations.",
   quote: "I turn student curiosity into products people can actually use.",
   audience: "Built for recruiters looking for craft, founders looking for a versatile builder, and teams that need someone who can think from first sketch to shipped interface.",
   socials: [
-    { label: "LINKEDIN", href: "https://www.linkedin.com/in/your-profile", note: "Replace with your LinkedIn" },
-    { label: "GITHUB", href: "https://github.com/your-username", note: "Replace with your GitHub" },
-    { label: "INSTAGRAM", href: "https://www.instagram.com/your-handle", note: "Replace with your creative profile" },
+    { label: "LINKEDIN", href: "https://www.linkedin.com/in/sparshm8/", note: "Sparsh Mishra on LinkedIn" },
+    { label: "GITHUB", href: "https://github.com/SparshM8", note: "SparshM8 on GitHub" },
   ],
   skills: ["Product Design", "Creative Development", "Brand Systems", "Frontend", "Research", "Motion", "Generative Art"],
   experiences: [

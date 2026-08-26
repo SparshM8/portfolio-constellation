@@ -88,3 +88,4 @@
 - [x] Add smooth route transitions between the constellation, worlds, and case studies.
 - [x] Connect every project card to its detailed case-study route.
 - [x] Verify navigation, visual hierarchy, and responsive behavior.
+- [x] Replace demo contact details with Sparsh Mishra’s supplied email and LinkedIn/GitHub profiles; remove unsupported demo phone, location, and social placeholders.
