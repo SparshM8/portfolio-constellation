@@ -103,5 +103,7 @@
 - [x] Push the production media fix and verify Vercel’s Git-triggered deployment plus live interactive behavior.
 - [x] Confirm every `/portfolios/:slug` route responds from the production alias and visually inspect representative image-led worlds.
 - [x] Exercise core production controls after deployment: filters, preview modal open/close, theme, mailto/social links, downloads, vote summary, and route transitions.
-- [ ] Connect Sparsh Mishra’s actual Formspree endpoint to the validated public contact form and verify a non-sensitive end-to-end submission flow.
-- [ ] Audit and restore the intended constellation loader, route transitions, adaptive cursor, hover states, and 3D card-tilt motion across hub and world pages.
+- [x] Connect Sparsh Mishra’s actual Formspree endpoint to the validated public contact form and verify a non-sensitive end-to-end submission flow.
+- [x] Audit and restore the intended constellation loader, route transitions, adaptive cursor, hover states, and 3D card-tilt motion across hub and world pages.
+- [x] Live-verify the production loader and route transition between the hub, a world, and a case-study page.
+- [x] Live-verify `TiltLink` depth behavior on production world case cards and document the interaction audit results.
