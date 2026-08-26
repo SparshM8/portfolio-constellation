@@ -9,6 +9,10 @@ describe("contact form delivery contract", () => {
     expect(source).toContain('method: "POST"');
     expect(source).toContain('name="email"');
     expect(source).toContain('name="message"');
+    expect(source).toContain('name="_gotcha"');
+    expect(source).toContain("SEND_COOLDOWN_MS");
+    expect(source).toContain("sessionStorage.setItem");
+    expect(source).toContain("contact-form__success--animated");
     expect(source).not.toContain("Signal received locally");
     expect(source).not.toContain("does not send live email yet");
   });

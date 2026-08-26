@@ -107,3 +107,5 @@
 - [x] Audit and restore the intended constellation loader, route transitions, adaptive cursor, hover states, and 3D card-tilt motion across hub and world pages.
 - [x] Live-verify the production loader and route transition between the hub, a world, and a case-study page.
 - [x] Live-verify `TiltLink` depth behavior on production world case cards and document the interaction audit results.
+- [ ] Add Formspree-compatible anti-spam safeguards to the public contact form without introducing exposed credentials or inaccessible CAPTCHA friction.
+- [ ] Add and live-verify a subtle, accessible success animation and toast after a successful contact-form submission.

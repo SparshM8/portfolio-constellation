@@ -1,0 +1,27 @@
+.contact-form__honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.contact-form__success--animated {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  animation: contact-success-in .36s cubic-bezier(.23, 1, .32, 1) both;
+}
+
+.contact-form__success--animated svg { color: #d9ff4a; flex: 0 0 auto; }
+
+@keyframes contact-success-in {
+  from { opacity: 0; transform: translateY(8px) scale(.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-form__success--animated { animation: none; }
+}
