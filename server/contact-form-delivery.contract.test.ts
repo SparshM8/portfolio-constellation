@@ -12,6 +12,10 @@ describe("contact form delivery contract", () => {
     expect(source).toContain('name="_gotcha"');
     expect(source).toContain("SEND_COOLDOWN_MS");
     expect(source).toContain("sessionStorage.setItem");
+    expect(source).toContain("localStorage.setItem(SAVED_CONTACT_KEY");
+    expect(source).toContain("CLEAR SAVED DETAILS");
+    expect(source).toContain("LoaderCircle");
+    expect(source).toContain("aria-busy={submitting}");
     expect(source).toContain("contact-form__success--animated");
     expect(source).not.toContain("Signal received locally");
     expect(source).not.toContain("does not send live email yet");
