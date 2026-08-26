@@ -152,3 +152,15 @@ Kinetic case studies behave like layered poster campaigns: compressed, loud, ang
 This portfolio now leads with **Sparsh Mishra, a B.Tech student, product-minded designer, and creative technologist**. It is designed for recruiters looking for a thoughtful early-career candidate and founders looking for a high-agency student collaborator. The presentation should make projects, skills, experience, availability, and contact actions easy to find without losing the constellation’s personal-brand atmosphere.
 
 The profile uses clearly marked demo contact details, including `+91 XXXXX XXXXX`, and links that must be replaced with Sparsh’s real accounts before launch. Each portfolio world carries a short audience statement so a recruiter or founder can immediately understand the kind of opportunity or problem it speaks to.
+
+## Theme, Contact, and Tilt Interaction Rules
+
+The **dark theme** remains the constellation’s default: void black, mineral white, and Signal Lime are the core identity. The **light theme** becomes a warm field-paper mode: mineral ivory, ink black, faint orbital lines, and the same Signal Lime navigation targets. Theme changes should feel like the field moving from night observation to daylight analysis, not like an unrelated recolor. The active choice is remembered across all hub, world, and case-study routes.
+
+The contact form is framed as a recruiter and founder inquiry tool. It collects a name, email, inquiry type, and message, validates each field before submission, and makes clear that this demo implementation confirms receipt locally rather than sending live email. The existing résumé and social pathways remain adjacent for low-friction contact.
+
+All portfolio-world project cards use a restrained 3D tilt based on pointer position. Cards rise slightly, rotate no more than six degrees, and expose a soft world-colored sheen. The interaction is disabled for touch devices and reduced-motion users, so the underlying case-study navigation stays accessible.
+
+## Final Constellation System Decisions
+
+The field selector is an explicit map: every world card is a named node with its own coordinate, visible orbital route, map label, and connection to another field destination. The enlarged broken-orbit glyph acts as a functional home seal, field control, and route identity. Recruiter content is treated as signal dispatch infrastructure rather than a conventional résumé footer: experience is an indexed log, direct actions are primary nodes, and the form is a structured message payload.

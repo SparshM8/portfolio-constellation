@@ -2,6 +2,15 @@
 
 ## Recruiter-Ready Portfolio Upgrade
 
+## Theme, Contact, and Interaction Upgrade
+
+- [x] Define the unified light/dark constellation palette, form validation states, and 3D tilt interaction rules.
+- [x] Add a global light/dark theme toggle that carries across hub, worlds, and case studies.
+- [x] Replace the contact links with a validated recruiter-facing contact form.
+- [x] Add 3D tilt hover behavior to all project cards in the eight portfolio worlds.
+- [x] Verify theming, form validation, tilt interactions, and responsive behavior.
+- [x] Package the final project as a ZIP for download.
+
 - [x] Define student-focused recruiter, founder, skills, experience, project, and contact demo data.
 - [x] Add a dynamic main-hub filter system for skills and project types.
 - [x] Implement a custom cursor that adapts to the active portfolio world and interactive targets.
