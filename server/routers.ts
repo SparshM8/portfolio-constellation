@@ -1,6 +1,6 @@
 import { COOKIE_NAME } from "@shared/const";
 import { z } from "zod";
-import { getDesignVoteSummary, setDesignVote } from "./db";
+import { getMongoDesignVoteSummary, setMongoDesignVote } from "./mongoVotes";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
@@ -19,8 +19,8 @@ export const appRouter = router({
     }),
   }),
   votes: router({
-    summary: publicProcedure.input(z.object({ visitorKey: z.string().min(12).max(80).optional() }).optional()).query(({ input }) => getDesignVoteSummary(input?.visitorKey)),
-    set: publicProcedure.input(z.object({ visitorKey: z.string().min(12).max(80), designSlug: z.enum(["kinetic", "architect", "void", "artifact", "mono", "neon", "editorial", "chrome"]) })).mutation(({ input }) => setDesignVote(input.visitorKey, input.designSlug)),
+    summary: publicProcedure.input(z.object({ visitorKey: z.string().min(12).max(80).optional() }).optional()).query(({ input }) => getMongoDesignVoteSummary(input?.visitorKey)),
+    set: publicProcedure.input(z.object({ visitorKey: z.string().min(12).max(80), designSlug: z.enum(["kinetic", "architect", "void", "artifact", "mono", "neon", "editorial", "chrome"]) })).mutation(({ input }) => setMongoDesignVote(input.visitorKey, input.designSlug)),
   }),
 });
 

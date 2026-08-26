@@ -1,6 +1,6 @@
-import { eq, sql } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { designVotes, InsertUser, users } from "../drizzle/schema";
+import { InsertUser, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -87,19 +87,4 @@ export async function getUserByOpenId(openId: string) {
   const result = await db.select().from(users).where(eq(users.openId, openId)).limit(1);
 
   return result.length > 0 ? result[0] : undefined;
-}
-
-export async function getDesignVoteSummary(visitorKey?: string) {
-  const db = await getDb();
-  if (!db) throw new Error("Voting service is unavailable");
-  const totals = await db.select({ designSlug: designVotes.designSlug, count: sql<number>`count(*)` }).from(designVotes).groupBy(designVotes.designSlug);
-  const selected = visitorKey ? await db.select({ designSlug: designVotes.designSlug }).from(designVotes).where(eq(designVotes.visitorKey, visitorKey)).limit(1) : [];
-  return { totals: Object.fromEntries(totals.map((row) => [row.designSlug, Number(row.count)])), selectedDesign: selected[0]?.designSlug ?? null };
-}
-
-export async function setDesignVote(visitorKey: string, designSlug: string) {
-  const db = await getDb();
-  if (!db) throw new Error("Voting service is unavailable");
-  await db.insert(designVotes).values({ visitorKey, designSlug }).onDuplicateKeyUpdate({ set: { designSlug, updatedAt: new Date() } });
-  return getDesignVoteSummary(visitorKey);
 }

@@ -25,7 +25,7 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
-/** One anonymous browser key may support one active portfolio design vote. */
+/** Legacy managed-database table retained without destructive migration; Vercel-hosted shared votes use MongoDB. */
 export const designVotes = mysqlTable("design_votes", {
   id: int("id").autoincrement().primaryKey(),
   visitorKey: varchar("visitorKey", { length: 80 }).notNull(),
@@ -33,6 +33,3 @@ export const designVotes = mysqlTable("design_votes", {
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
 }, (table) => [uniqueIndex("design_votes_visitor_key_unique").on(table.visitorKey)]);
-
-export type DesignVote = typeof designVotes.$inferSelect;
-export type InsertDesignVote = typeof designVotes.$inferInsert;

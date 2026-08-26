@@ -14,6 +14,23 @@
 
 ## Accessibility and Design Voting Upgrade
 
+## GitHub Deployment Path
+
+## Vercel Deployment Path
+
+- [x] Obtain the MongoDB connection URI required for portable Vercel-hosted shared voting.
+- [x] Migrate the shared vote API from the managed project database to MongoDB.
+- [x] Add a Vercel serverless entry point, deployment configuration, and external-hosting documentation.
+- [ ] Verify the Vercel serverless entry, configuration, documentation, and local build/test compatibility.
+
+- [ ] Confirm the existing shared-voting database can remain in place for Vercel; defer MongoDB unless a migration is required.
+- [ ] Add Vercel deployment configuration and environment-variable documentation for the GitHub repository.
+- [ ] Verify Vercel project readiness and add the resulting stable URL to GitHub metadata.
+
+- [ ] Choose a GitHub-connected deployment target that supports the shared voting backend.
+- [ ] Add the selected host’s deployment configuration and environment documentation.
+- [ ] Verify the deployment configuration and complete the GitHub website metadata with the live URL.
+
 - [x] Audit keyboard paths, focus states, motion, contrast, image descriptions, and vote behavior.
 - [x] Add accessible focus, skip navigation, reduced-motion, contrast, and descriptive image improvements.
 - [x] Add one-vote-per-browser design voting with persistent local preference and popularity labels.
@@ -26,6 +43,7 @@
 - [x] Run final build and visual checks for the current project state.
 - [x] Create a private GitHub repository and push the validated source.
 - [ ] Set the repository description, topics, and website URL metadata after a stable public URL is available.
+- [ ] Publish the site through the project interface and add the resulting stable URL to GitHub metadata.
 - [x] Provide the project publishing step and report the final repository state.
 
 - [x] Define the beginner setup steps, preview-edit data flow, and personalized ZIP manifest behavior.
