@@ -12,14 +12,25 @@
 
 ## GitHub and Publishing Preparation
 
-- [ ] Run final build and visual checks for the current project state.
+## Accessibility and Design Voting Upgrade
+
+- [x] Audit keyboard paths, focus states, motion, contrast, image descriptions, and vote behavior.
+- [x] Add accessible focus, skip navigation, reduced-motion, contrast, and descriptive image improvements.
+- [x] Add one-vote-per-browser design voting with persistent local preference and popularity labels.
+- [x] Verify keyboard operation, reduced-motion fallbacks, visual contrast, and vote persistence.
+- [x] Exercise keyboard navigation through skip link, filters, previews, vote controls, and contact fields.
+- [x] Validate the reduced-motion experience suppresses the loader, route transition, cursor, and card tilt.
+- [x] Audit contrast in utility, voting, and focused-control states.
+- [x] Submit a controlled vote through the API and confirm its shared count and selected-design state persist.
+
+- [x] Run final build and visual checks for the current project state.
 - [ ] Create a private GitHub repository and push the validated source.
 - [ ] Set the repository description, topics, and website URL metadata.
 - [ ] Provide the project publishing step and report the final repository state.
 
 - [x] Define the beginner setup steps, preview-edit data flow, and personalized ZIP manifest behavior.
 - [x] Add editable personal-detail controls and a beginner integration guide to the preview experience.
-- [ ] Generate a customized source ZIP in the browser with the edited JSON profile embedded.
+- [x] Generate a customized source ZIP in the browser with the edited JSON profile embedded.
 - [x] Verify guide clarity, edited preview values, JSON output, customized archive content, and mobile behavior.
 
 - [x] Define the configuration schema, preview surface, and reusable snippet catalog.

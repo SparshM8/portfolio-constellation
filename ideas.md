@@ -179,6 +179,12 @@ The starter-kit guide is a four-step field guide: choose the right world, edit `
 
 Personalization happens entirely in the visitor’s browser. The preview modal exposes editable fields for every JSON profile property, updates the live miniature preview as the visitor types, then fetches the selected starter ZIP, replaces that template’s profile object inside `template-profiles.json`, and creates a new ZIP download locally. No profile values are sent to a server. The personalized archive includes a short `YOUR-STARTER-SETUP.md` reminder of the selected design and fields customized.
 
+## Accessibility and Voting System
+
+The library receives a semantic access layer: a skip-to-content path, visible focus rings, keyboard-reachable controls, clear pressed/expanded states, descriptive image alternatives for non-decorative portfolio art, and a broad reduced-motion mode that disables loaders, transforms, card tilt, and cursor choreography. Decorative cosmic surfaces remain hidden from assistive technology. The dark observatory remains the default surface; warm field-paper sections retain ink-on-paper contrast and do not rely on color alone for meaning.
+
+Votes are shared rather than merely visual. Each browser receives an anonymous local visitor key and may vote for one design at a time; changing the vote moves that vote to another world. A small shared database stores only the anonymous key, the selected design slug, and update time. The hub shows total votes, the visitor’s selected design, and a leading-signal label. This avoids collecting personal identity while making the popularity indicator useful across visitors.
+
 ## Style Decisions
 
 Kinetic’s mid-page system uses uneven poster fragments, rotated campaign panels, and compressed orange/black type collisions. Neon’s body turns into an arcade board: a player-readout, grid surface, game-like case tiles, and high-score signal. Across every route, the broken-orbit glyph is elevated to a creator seal, while source retrieval is framed as a signal operation rather than a template-marketplace control. Signal Lime remains reserved for active navigation, encoded markers, source retrieval, and the primary contact path outside the Neon environment.
