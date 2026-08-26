@@ -89,3 +89,15 @@
 - [x] Connect every project card to its detailed case-study route.
 - [x] Verify navigation, visual hierarchy, and responsive behavior.
 - [x] Replace demo contact details with Sparsh Mishra’s supplied email and LinkedIn/GitHub profiles; remove unsupported demo phone, location, and social placeholders.
+- [ ] Deferred at user request: add a secure Vercel-compatible contact-form delivery flow that sends inquiries to its8samay@gmail.com without exposing credentials.
+- [ ] Deferred at user request: create the Formspree form endpoint for its8samay@gmail.com and wire it into the public contact form.
+- [x] Verify the latest GitHub commit and Vercel production response after the contact-profile update.
+- [ ] Audit repository and Vercel secret handling to confirm production credentials remain uncommitted and secret-scoped.
+- [x] Reattribute agent-authored Git commits to Sparsh Mishra <SparshM8@users.noreply.github.com> and verify the corrected GitHub history.
+- [x] Confirm that the reattributed commit email maps to the existing SparshM8 GitHub account and explain it clearly.
+- [ ] Visually audit the live Vercel deployment for image loading, animation, route navigation, and interactive controls; fix any verified defect.
+- [ ] Fix the verified production brand-image failure and investigate the blank viewport observed after the Explore anchor transition.
+- [x] Replace every Vercel-incompatible `/manus-storage` public asset reference with direct public CDN URLs that return the expected image, PDF, or ZIP content type.
+- [ ] Verify every intended live portfolio-world route; fix the production 404 observed when opening a world directly.
+- [x] Add regression coverage for the migrated production asset paths and pass type checks, 12 tests, and a production build.
+- [ ] Push the production media fix and verify Vercel’s Git-triggered deployment plus live interactive behavior.

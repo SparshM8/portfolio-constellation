@@ -25,14 +25,14 @@ export const designGuides: Record<PortfolioMode, DesignGuide> = {
 };
 
 export const designSourceZips: Record<PortfolioMode, string> = {
-  kinetic: "/manus-storage/01-kinetic-poster_2f65a54d.zip",
-  architect: "/manus-storage/02-architect-dossier_8dc29859.zip",
-  void: "/manus-storage/03-void-reel_5477a045.zip",
-  artifact: "/manus-storage/04-artifact-archive_6e96c7c2.zip",
-  mono: "/manus-storage/05-mono-index_ef296e36.zip",
-  neon: "/manus-storage/06-neon-playground_ca6ef9c7.zip",
-  editorial: "/manus-storage/07-editorial-journal_40d91888.zip",
-  chrome: "/manus-storage/08-chrome-control-room_0261b066.zip",
+  kinetic: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/uEwXlmiptLdcrotj.zip",
+  architect: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/EGQkWkefGJIarucp.zip",
+  void: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/zEyFOqzipvunbHlr.zip",
+  artifact: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/qyVwccFMGTnQlLCN.zip",
+  mono: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/QirxcSiHXwTlXZpO.zip",
+  neon: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/gbDdgqPsHPtIiszU.zip",
+  editorial: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/EgjSDcReDIjNNWUI.zip",
+  chrome: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/kjYxUJpNeTOAwjlM.zip",
 };
 
-export const masterLibraryZip = "/manus-storage/Portfolio-Constellation-Personalized-Starter-Kit_0c9b7c35.zip";
+export const masterLibraryZip = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/VoFdtVnrYAQjezGd.zip";
