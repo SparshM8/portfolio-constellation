@@ -3,3 +3,7 @@
     linear-gradient(90deg, #0b0b0b 0%, #0b0b0b80 45%, #0b0b0b12 100%),
     url("https://files.manuscdn.com/user_upload_by_module/session_file/310519663761893749/nBxTXGbXqhfuMdMx.jpg") center / cover;
 }
+
+html {
+  scroll-behavior: auto;
+}
