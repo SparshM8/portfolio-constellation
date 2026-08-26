@@ -110,7 +110,7 @@
 - [x] Add Formspree-compatible anti-spam safeguards to the public contact form without introducing exposed credentials or inaccessible CAPTCHA friction.
 - [x] Add and live-verify a subtle, accessible success animation and toast after a successful contact-form submission.
 - [x] Defer the Formspree automatic acknowledgement email at the owner’s request; the provider feature requires a paid upgrade and no alternate provider will be added.
-- [ ] Add a visible in-button loading spinner and disabled processing state for contact submissions.
-- [ ] Add opt-in local storage for a visitor’s name and email with clear disclosure and an easy way to remove saved details.
-- [ ] Fix the unintended overlap between the hero recruitment-copy block and the Portfolio Constellation creator seal/orbit artwork at affected responsive sizes.
+- [x] Add a visible in-button loading spinner and disabled processing state for contact submissions.
+- [x] Add opt-in local storage for a visitor’s name and email with clear disclosure and an easy way to remove saved details.
+- [x] Fix the unintended overlap between the hero recruitment-copy block and the Portfolio Constellation creator seal/orbit artwork at affected responsive sizes.
 - [x] Defer Formspree automatic acknowledgements at the owner’s request because the provider feature requires a paid upgrade; do not upgrade or add another email provider.
