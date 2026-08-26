@@ -95,11 +95,11 @@
 - [ ] Audit repository and Vercel secret handling to confirm production credentials remain uncommitted and secret-scoped.
 - [x] Reattribute agent-authored Git commits to Sparsh Mishra <SparshM8@users.noreply.github.com> and verify the corrected GitHub history.
 - [x] Confirm that the reattributed commit email maps to the existing SparshM8 GitHub account and explain it clearly.
-- [ ] Visually audit the live Vercel deployment for image loading, animation, route navigation, and interactive controls; fix any verified defect.
+- [x] Visually audit the live Vercel deployment for image loading, animation, route navigation, and interactive controls; fix any verified defect.
 - [x] Fix the verified production brand-image failure and investigate the blank viewport observed after the Explore anchor transition; the anchor crosses the dark hero/candidate transition during smooth scrolling but settles on the populated worlds section.
 - [x] Replace every Vercel-incompatible `/manus-storage` public asset reference with direct public CDN URLs that return the expected image, PDF, or ZIP content type.
-- [ ] Verify every intended live portfolio-world route; the valid direct route is `/portfolios/kinetic` rather than `/kinetic`, which is intentionally not a route.
+- [x] Verify every intended live portfolio-world route; the valid direct route is `/portfolios/kinetic` rather than `/kinetic`, which is intentionally not a route.
 - [x] Add regression coverage for the migrated production asset paths and pass type checks, 12 tests, and a production build.
-- [ ] Push the production media fix and verify Vercel’s Git-triggered deployment plus live interactive behavior.
-- [ ] Confirm every `/portfolios/:slug` route responds from the production alias and visually inspect representative image-led worlds.
-- [ ] Exercise core production controls after deployment: filters, preview modal open/close, theme, mailto/social links, downloads, vote summary, and route transitions.
+- [x] Push the production media fix and verify Vercel’s Git-triggered deployment plus live interactive behavior.
+- [x] Confirm every `/portfolios/:slug` route responds from the production alias and visually inspect representative image-led worlds.
+- [x] Exercise core production controls after deployment: filters, preview modal open/close, theme, mailto/social links, downloads, vote summary, and route transitions.
