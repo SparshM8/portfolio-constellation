@@ -1,0 +1,24 @@
+/* The field switch feels continuous without animating for visitors who request reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  html.theme-ready body,
+  html.theme-ready .constellation-page,
+  html.theme-ready .portfolio-world,
+  html.theme-ready .case-study,
+  html.theme-ready .hub-nav,
+  html.theme-ready .world-nav,
+  html.theme-ready .world-footer,
+  html.theme-ready .world-hero,
+  html.theme-ready .design-fit,
+  html.theme-ready .world-cases,
+  html.theme-ready .world-statement,
+  html.theme-ready .next-world,
+  html.theme-ready .case-nav,
+  html.theme-ready .case-intro,
+  html.theme-ready .case-chapter,
+  html.theme-ready .case-gallery,
+  html.theme-ready .case-outro,
+  html.theme-ready .case-footer,
+  html.theme-ready .theme-toggle {
+    transition: background-color 320ms cubic-bezier(.23,1,.32,1), color 220ms cubic-bezier(.23,1,.32,1), border-color 220ms cubic-bezier(.23,1,.32,1), filter 320ms cubic-bezier(.23,1,.32,1), box-shadow 320ms cubic-bezier(.23,1,.32,1);
+  }
+}

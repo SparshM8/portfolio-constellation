@@ -116,3 +116,5 @@
 - [x] Defer Formspree automatic acknowledgements at the owner’s request because the provider feature requires a paid upgrade; do not upgrade or add another email provider.
 - [x] Extend Light Field and Dark Field styling beyond the home hub so it consistently changes all portfolio-world and case-study routes.
 - [x] Fix Light Field contrast on case-study hero copy and controls so the title and metadata remain readable over the brightened image wash.
+- [ ] Detect and adopt the visitor’s OS color preference on first load while preserving a manually chosen field mode.
+- [ ] Add a smooth reduced-motion-safe fade transition when Light Field and Dark Field are switched.
