@@ -21,17 +21,21 @@
 - [x] Obtain the MongoDB connection URI required for portable Vercel-hosted shared voting.
 - [x] Migrate the shared vote API from the managed project database to MongoDB.
 - [x] Add a Vercel serverless entry point, deployment configuration, and external-hosting documentation.
-- [ ] Verify the Vercel serverless entry, configuration, documentation, and local build/test compatibility.
-- [ ] Correct Vercel SPA fallback routing so /api/trpc is served by the serverless vote API rather than index.html.
-- [ ] Bundle the Vercel vote handler without unresolved local server imports.
+- [x] Verify the Vercel serverless entry, configuration, documentation, and local build/test compatibility.
+- [x] Correct Vercel SPA fallback routing so /api/trpc is served by the serverless vote API rather than index.html.
+- [x] Bundle the Vercel vote handler without unresolved local server imports.
+- [x] Correct the Atlas driver hostname in both Vercel MongoDB secret scopes and redeploy Production.
+- [x] Verify the final Vercel `votes.set` mutation and follow-up summary through a temporary isolated test record, then remove that record from Atlas.
+- [x] Remove the temporary Atlas vote-verification record before final delivery.
+- [x] Verify the production vote UI reflects the confirmed MongoDB-backed summary without leaving a fabricated public signal.
 
-- [ ] Confirm the existing shared-voting database can remain in place for Vercel; defer MongoDB unless a migration is required.
-- [ ] Add Vercel deployment configuration and environment-variable documentation for the GitHub repository.
-- [ ] Verify Vercel project readiness and add the resulting stable URL to GitHub metadata.
+- [x] Determine that portable Vercel voting requires MongoDB rather than the prior managed database path.
+- [x] Add Vercel deployment configuration and environment-variable documentation for the GitHub repository.
+- [x] Verify Vercel project readiness and add the resulting stable URL to GitHub metadata.
 
-- [ ] Choose a GitHub-connected deployment target that supports the shared voting backend.
-- [ ] Add the selected host’s deployment configuration and environment documentation.
-- [ ] Verify the deployment configuration and complete the GitHub website metadata with the live URL.
+- [x] Choose Vercel as the GitHub-connected deployment target that supports the shared voting backend.
+- [x] Add the selected host’s deployment configuration and environment documentation.
+- [x] Verify the deployment configuration and complete the GitHub website metadata with the live URL.
 
 - [x] Audit keyboard paths, focus states, motion, contrast, image descriptions, and vote behavior.
 - [x] Add accessible focus, skip navigation, reduced-motion, contrast, and descriptive image improvements.
@@ -44,8 +48,8 @@
 
 - [x] Run final build and visual checks for the current project state.
 - [x] Create a private GitHub repository and push the validated source.
-- [ ] Set the repository description, topics, and website URL metadata after a stable public URL is available.
-- [ ] Publish the site through the project interface and add the resulting stable URL to GitHub metadata.
+- [x] Set the repository description, topics, and website URL metadata after a stable public URL is available.
+- [x] Deploy the site on Vercel and add the resulting stable URL to GitHub metadata.
 - [x] Provide the project publishing step and report the final repository state.
 
 - [x] Define the beginner setup steps, preview-edit data flow, and personalized ZIP manifest behavior.
