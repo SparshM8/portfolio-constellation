@@ -11,5 +11,6 @@ describe("cross-route theme contract", () => {
     expect(source).toContain("html.dark .case-study");
     expect(source).toContain(".world-nav");
     expect(source).toContain(".case-nav");
+    expect(source).toContain(".case-hero h1");
   });
 });

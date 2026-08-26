@@ -94,6 +94,23 @@ html:not(.dark) .case-study .case-hero__wash {
   background: linear-gradient(90deg,#f6f4eedb 0%,#f6f4ee8a 48%,#f6f4ee36 100%),linear-gradient(0deg,#f6f4eebd 0%,transparent 48%);
 }
 
+html:not(.dark) .case-study .case-hero,
+html:not(.dark) .case-study .case-hero__copy,
+html:not(.dark) .case-study .case-hero__scroll,
+html:not(.dark) .case-study .case-hero__field-code {
+  color: #111 !important;
+}
+
+html:not(.dark) .case-study .case-hero h1 {
+  color: #111 !important;
+  text-shadow: 0 1px 0 #ffffffa8;
+}
+
+html:not(.dark) .case-study .case-hero__field-code {
+  border-color: #111;
+  background: #f6f4eebd;
+}
+
 html:not(.dark) .case-study .case-intro,
 html:not(.dark) .case-study .case-chapter,
 html:not(.dark) .case-study .case-gallery,
