@@ -8,6 +8,13 @@
 
 ## Interactive Starter Kit Upgrade
 
+## Beginner Guide and Personalized Download Upgrade
+
+- [x] Define the beginner setup steps, preview-edit data flow, and personalized ZIP manifest behavior.
+- [x] Add editable personal-detail controls and a beginner integration guide to the preview experience.
+- [ ] Generate a customized source ZIP in the browser with the edited JSON profile embedded.
+- [x] Verify guide clarity, edited preview values, JSON output, customized archive content, and mobile behavior.
+
 - [x] Define the configuration schema, preview surface, and reusable snippet catalog.
 - [x] Add a centralized editable JSON profile configuration for every template.
 - [x] Build a live preview modal for each portfolio design with source-download access.

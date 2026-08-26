@@ -173,8 +173,16 @@ Portfolio Constellation becomes a **portfolio-design library**. The main hub is 
 
 Every starter inherits a central `client/src/config/template-profiles.json` file. It holds the personal profile values that juniors most frequently change: name, role, headline, email, location, project heading, and contact CTA. The live preview modal reads that same configuration, so the comparison experience demonstrates exactly what the configuration controls. The modal also provides three copyable code sections—hero, project gallery, and contact block—rather than forcing a junior to copy an entire project when they only need a component.
 
+## Beginner Setup and Personalized ZIP Rules
+
+The starter-kit guide is a four-step field guide: choose the right world, edit `template-profiles.json`, paste or adapt a component snippet, then test and download. It must explain the exact filename and distinguish profile data from layout components so a first-time user is not asked to understand the whole codebase at once.
+
+Personalization happens entirely in the visitor’s browser. The preview modal exposes editable fields for every JSON profile property, updates the live miniature preview as the visitor types, then fetches the selected starter ZIP, replaces that template’s profile object inside `template-profiles.json`, and creates a new ZIP download locally. No profile values are sent to a server. The personalized archive includes a short `YOUR-STARTER-SETUP.md` reminder of the selected design and fields customized.
+
 ## Style Decisions
 
 Kinetic’s mid-page system uses uneven poster fragments, rotated campaign panels, and compressed orange/black type collisions. Neon’s body turns into an arcade board: a player-readout, grid surface, game-like case tiles, and high-score signal. Across every route, the broken-orbit glyph is elevated to a creator seal, while source retrieval is framed as a signal operation rather than a template-marketplace control. Signal Lime remains reserved for active navigation, encoded markers, source retrieval, and the primary contact path outside the Neon environment.
+
+The observatory remains the master environment. Field-paper and aqua dossier surfaces are analysis layers framed by void-black routes, not replacements for the primary dark space. Architect’s evidence cards carry visible measurement codes, blueprint grids, flow traces, and annotation plates. The serif italic is retained for rare cinematic turns; system explanation stays in grotesk and mono.
 
 The final export has a single `portfolio-constellation-library/` parent folder. Inside it, `main-hub/` holds the selection experience and shared design system, while `portfolio-designs/` contains eight clear folders: `01-kinetic-poster/`, `02-architect-dossier/`, `03-void-reel/`, `04-artifact-archive/`, `05-mono-index/`, `06-neon-playground/`, `07-editorial-journal/`, and `08-chrome-control-room/`. Every design folder carries a README, its route component, its visual configuration, and a customization map so it can be copied as a starting point.
